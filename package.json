@@ -1,0 +1,21 @@
+{
+  "name": "tdd-searchprediction",
+  "version": "1.0.0",
+  "description": "TDD demo scripts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src/**/**.spec.js --watch"
+  },
+  "keywords": [
+    "tdd"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "latest",
+    "mocha": "^7.1.1"
+  },
+  "dependencies": {
+    "node": "^14.0.0",
+    "stack": "^0.1.0"
+  }
+}
